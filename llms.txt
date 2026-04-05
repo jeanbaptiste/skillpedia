@@ -1,0 +1,30 @@
+# Skillpedia
+
+> Skillpedia is a directory of skills — instruction files for AI and human agents, encoded as hyperskills (base64-encoded skill content in the  URL query parameter).
+
+## Pages
+
+- https://skillpedia.eu/ — Homepage
+- https://skillpedia.eu/repertoire.html — Skills directory by category
+- https://skillpedia.eu/faq.html — FAQ about skills and hyperskills
+- https://skillpedia.eu/manifeste.en.md — Manifesto (EN)
+- https://skillpedia.eu/manifeste.md — Manifesto (FR)
+
+## Machine-readable index
+
+- https://skillpedia.eu/skills.json — All skills with decoded content (JSON)
+
+## How to decode a hyperskill
+
+A hyperskill URL contains a base64-encoded skill in the `hs` query parameter.
+
+Example: https://example.com/page?hs=BASE64_CONTENT
+
+JavaScript: atob(new URL(url).searchParams.get('hs'))
+Python: base64.b64decode(url.split('hs=')[1]).decode()
+
+## License
+
+CC BY-NC-SA 4.0 — Copyright CERI SAS
+Contact: contact@skillpedia.eu
+GitHub: https://github.com/jeanbaptiste/skillpedia
