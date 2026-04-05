@@ -1,23 +1,24 @@
 # Skillpedia
 
-Répertoire de skills sous licence Creative Commons, encodées au format [hyperskills](https://hyperskills.net).
+A directory of skills under Creative Commons license, encoded in the [hyperskills](https://hyperskills.net) format.
 
-## Site
+## Website
 
 [skillpedia.eu](https://skillpedia.eu)
 
 ## Pages
 
-- [Accueil](index.html)
-- [Répertoire](repertoire.html)
+- [Home](index.html)
+- [Directory](repertoire.html)
 - [FAQ](faq.html)
-- [Manifeste](manifeste.md)
+- [Manifesto](manifeste.md)
 
-## Format
+## What is a skill?
 
-Une skill est un fichier d'instruction (Markdown, SQL, YAML, HTML...) pour un agent IA ou humain.  
-Une [hyperskill](https://hyperskills.net) encode la skill en base64 dans le paramètre `hs` d'une URL.
+A skill is an instruction file — code, queries, presentation rules, best practices — for an AI or human agent.
 
-## Licence
+A [hyperskill](https://hyperskills.net) encodes a skill as base64 in the `hs` query parameter of a URL, making any skill shareable as a hyperlink.
 
-CC-BY-SA-4.0
+## License
+
+CC BY-NC-SA 4.0 — Copyright CERI SAS
