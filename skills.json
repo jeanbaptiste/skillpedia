@@ -1,0 +1,41 @@
+{
+  "": "https://skillpedia.eu/skills.schema.json",
+  "version": "1",
+  "description": "Skillpedia skill index — add your skill by forking https://github.com/jeanbaptiste/skillpedia",
+  "skills": [
+    {
+      "id": "skillpedia-use",
+      "title": "Use Skillpedia",
+      "description": "Find and use skills from Skillpedia, a directory of CC-licensed instruction files for AI and human agents",
+      "tags": [
+        "skillpedia",
+        "skills",
+        "hyperskills",
+        "directory",
+        "agents"
+      ],
+      "license": "CC BY-NC-SA 4.0",
+      "author": "CERI SAS",
+      "source": "https://skillpedia.eu",
+      "url": "https://skillpedia.eu?hs=LS0tCnRpdGxlOiAiVXNlIFNraWxscGVkaWEiCmRlc2NyaXB0aW9uOiAiRmluZCBhbmQgdXNlIHNraWxscyBmcm9tIFNraWxscGVkaWEsIGEgZGlyZWN0b3J5IG9mIENDLWxpY2Vuc2VkIGluc3RydWN0aW9uIGZpbGVzIGZvciBBSSBhbmQgaHVtYW4gYWdlbnRzIgp0YWdzOiBbInNraWxscGVkaWEiLCAic2tpbGxzIiwgImh5cGVyc2tpbGxzIiwgImRpcmVjdG9yeSIsICJhZ2VudHMiXQpsaWNlbnNlOiAiQ0MgQlktTkMtU0EgNC4wIgphdXRob3I6ICJDRVJJIFNBUyIKLS0tCgpTa2lsbHBlZGlhIChza2lsbHBlZGlhLmV1KSBpcyBhIGRpcmVjdG9yeSBvZiBza2lsbHMg4oCUIGluc3RydWN0aW9uIGZpbGVzIGZvciBBSSBhbmQgaHVtYW4gYWdlbnRzIOKAlCBlbmNvZGVkIGFzIGh5cGVyc2tpbGxzLgoKIyMgRmluZCBhIHNraWxsCgoxLiBCcm93c2UgYnkgY2F0ZWdvcnk6IGh0dHBzOi8vc2tpbGxwZWRpYS5ldS9yZXBlcnRvaXJlLmh0bWwKMi4gU2VhcmNoIHRoZSBtYWNoaW5lLXJlYWRhYmxlIGluZGV4OiBodHRwczovL3NraWxscGVkaWEuZXUvc2tpbGxzLmpzb24KCiMjIFdoYXQgaXMgYSBoeXBlcnNraWxsPwoKQSBoeXBlcnNraWxsIGlzIGEgVVJMIHdpdGggYSBiYXNlNjQtZW5jb2RlZCBza2lsbCBpbiB0aGUgaHMgcXVlcnkgcGFyYW1ldGVyOgoKICAgIHNvdXJjZV91cmw/aHM9QkFTRTY0X09GX1NLSUxMX0NPTlRFTlQKClRvIGRlY29kZSBpbiBKYXZhU2NyaXB0OiBhdG9iKG5ldyBVUkwodXJsKS5zZWFyY2hQYXJhbXMuZ2V0KCJocyIpKQpUbyBkZWNvZGUgaW4gUHl0aG9uOiBpbXBvcnQgYmFzZTY0OyBiYXNlNjQuYjY0ZGVjb2RlKGhzX3BhcmFtKS5kZWNvZGUoKQoKIyMgU3VibWl0IGEgc2tpbGwKCjEuIFdyaXRlIHlvdXIgc2tpbGwgaW4gTWFya2Rvd24gKEFnZW50IFNraWxscyBmb3JtYXQgcmVjb21tZW5kZWQ6IGFnZW50c2tpbGxzLmlvKQoyLiBDaG9vc2UgdGhlIHNvdXJjZSBVUkwgKHdoZXJlIHRoZSBza2lsbCBhcHBsaWVzKQozLiBFbmNvZGU6IGJ0b2Eoc2tpbGxDb250ZW50KSBvciBiYXNlNjQuYjY0ZW5jb2RlKGNvbnRlbnQuZW5jb2RlKCkpLmRlY29kZSgpCjQuIEJ1aWxkIFVSTDogc291cmNlX3VybD9ocz1lbmNvZGVkQ29udGVudAo1LiBGb3JrIGdpdGh1Yi5jb20vamVhbmJhcHRpc3RlL3NraWxscGVkaWEgYW5kIGFkZCB5b3VyIHNraWxsIHRvIHNraWxscy5qc29uCgojIyBMaWNlbnNlCgpTa2lsbHMgb24gU2tpbGxwZWRpYSBhcmUgdW5kZXIgQ3JlYXRpdmUgQ29tbW9ucyBsaWNlbnNlIChzZWUgZWFjaCBza2lsbCBtZXRhZGF0YSkuCg==",
+      "content": "---\ntitle: \"Use Skillpedia\"\ndescription: \"Find and use skills from Skillpedia, a directory of CC-licensed instruction files for AI and human agents\"\ntags: [\"skillpedia\", \"skills\", \"hyperskills\", \"directory\", \"agents\"]\nlicense: \"CC BY-NC-SA 4.0\"\nauthor: \"CERI SAS\"\n---\n\nSkillpedia (skillpedia.eu) is a directory of skills — instruction files for AI and human agents — encoded as hyperskills.\n\n## Find a skill\n\n1. Browse by category: https://skillpedia.eu/repertoire.html\n2. Search the machine-readable index: https://skillpedia.eu/skills.json\n\n## What is a hyperskill?\n\nA hyperskill is a URL with a base64-encoded skill in the hs query parameter:\n\n    source_url?hs=BASE64_OF_SKILL_CONTENT\n\nTo decode in JavaScript: atob(new URL(url).searchParams.get(\"hs\"))\nTo decode in Python: import base64; base64.b64decode(hs_param).decode()\n\n## Submit a skill\n\n1. Write your skill in Markdown (Agent Skills format recommended: agentskills.io)\n2. Choose the source URL (where the skill applies)\n3. Encode: btoa(skillContent) or base64.b64encode(content.encode()).decode()\n4. Build URL: source_url?hs=encodedContent\n5. Fork github.com/jeanbaptiste/skillpedia and add your skill to skills.json\n\n## License\n\nSkills on Skillpedia are under Creative Commons license (see each skill metadata)."
+    },
+    {
+      "id": "tricoteuses-analyser-amendements",
+      "title": "Analyser les amendements",
+      "description": "Rechercher et analyser les amendements à partir des tables du schéma assemblee de canutes.",
+      "tags": [
+        "amendements",
+        "cosignataires",
+        "deputes",
+        "sql",
+        "jsonb"
+      ],
+      "license": "CC BY-SA 4.0",
+      "author": "tricoteuses.fr",
+      "source": "https://tricoteuses.fr/recettes/analyser_amendements",
+      "url": "https://tricoteuses.fr/recettes/analyser_amendements?hs=LS0tCnRpdGxlOiAiQW5hbHlzZXIgbGVzIGFtZW5kZW1lbnRzIg==",
+      "content": "---\ntitle: \"Analyser les amendements\"\ndescription: \"Rechercher et analyser les amendements à partir des tables du schéma assemblee de canutes.\"\ntags: [\"amendements\", \"cosignataires\", \"députés\", \"sql\", \"jsonb\"]\nlicense: \"CC BY-SA 4.0\"\nauthor: \"tricoteuses.fr\"\n---\n\nLa base unique canutes expose les schémas assemblee, legifrance et senat.\nCette recette cible assemblee, en travaillant directement sur assemblee.amendements.\n\nFonctions disponibles:\n- filtres dans des colonnes dénormalisées (texte_loi_uid, legislature)\n- table de jointure deputes_signataires_amendements pour les signataires députés\n- combiner jointure et JSONB pour les cosignatures"
+    }
+  ]
+}

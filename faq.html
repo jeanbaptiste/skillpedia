@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>Skillpedia — FAQ</title>
+<meta charset="UTF-8">
+<style>
+[data-lang="fr"] [lang="en"],
+[data-lang="en"] [lang="fr"] { display: none; }
+</style>
+</head>
+<body data-lang="fr">
+
+<p><a href="javascript:void(0)" onclick="toggleLang()">[EN]</a></p>
+
+<h1>Skillpedia — FAQ</h1>
+
+<p><a href="./index.html">Retour / Back</a></p>
+
+<dl>
+
+<dt lang="fr"><b>C'est quoi une skill ?</b></dt>
+<dt lang="en"><b>What is a skill?</b></dt>
+<dd lang="fr">Un fichier d'instruction : du code, des requêtes, des règles de présentation, des bonnes pratiques. Pour un agent IA ou humain.</dd>
+<dd lang="en">An instruction file: code, queries, presentation rules, best practices. For an AI or human agent.</dd>
+
+<dt lang="fr"><b>C'est quoi une hyperskill ?</b></dt>
+<dt lang="en"><b>What is a hyperskill?</b></dt>
+<dd lang="fr">Une skill encodée en base64 dans le fragment (#) d'une URL. Comme une page web est un document accessible via une URL, une skill est un fichier d'instruction accessible via une hyperskill. Voir <a href="https://hyperskills.net">hyperskills.net</a>.</dd>
+<dd lang="en">A skill base64-encoded in the fragment (#) of a URL. As a web page is a document accessible via a URL, a skill is an instruction file accessible via a hyperskill. See <a href="https://hyperskills.net">hyperskills.net</a>.</dd>
+
+<dt lang="fr"><b>Pourquoi dans le fragment ?</b></dt>
+<dt lang="en"><b>Why in the fragment?</b></dt>
+<dd lang="fr">Le fragment (après le #) n'est pas envoyé au serveur. Il reste côté client.</dd>
+<dd lang="en">The fragment (after #) is not sent to the server. It stays client-side.</dd>
+
+<dt lang="fr"><b>Quelle taille maximum ?</b></dt>
+<dt lang="en"><b>Maximum size?</b></dt>
+<dd lang="fr">~64 000 caractères dans les navigateurs modernes. ~48 Ko en base64, ~250-500 Ko avec compression.</dd>
+<dd lang="en">~64,000 characters in modern browsers. ~48 KB in base64, ~250-500 KB with compression.</dd>
+
+<dt lang="fr"><b>Quel format de contenu ?</b></dt>
+<dt lang="en"><b>What content format?</b></dt>
+<dd lang="fr">Libre. Markdown, SQL, YAML, HTML, Svelte, texte. Le format <a href="https://agentskills.io/">Agent Skills</a> est recommandé mais pas obligatoire.</dd>
+<dd lang="en">Free. Markdown, SQL, YAML, HTML, Svelte, text. The <a href="https://agentskills.io/">Agent Skills</a> format is recommended but not required.</dd>
+
+<dt lang="fr"><b>Quelle licence ?</b></dt>
+<dt lang="en"><b>What license?</b></dt>
+<dd lang="fr">Les skills sur Skillpedia sont sous licence creative commons.</dd>
+<dd lang="en">Skills on Skillpedia are under creative commons license.</dd>
+
+<dt lang="fr"><b>Versioning ?</b></dt>
+<dt lang="en"><b>Versioning?</b></dt>
+<dd lang="fr">Le hash de l'URI source + contenu sert de trace. Chaque version peut référencer le hash de la version précédente. Recommandé, pas obligatoire.</dd>
+<dd lang="en">The hash of source URI + content serves as a trace. Each version can reference the previous version's hash. Recommended, not required.</dd>
+
+<dt lang="fr"><b>Spam ?</b></dt>
+<dt lang="en"><b>Spam?</b></dt>
+<dd lang="fr">Le format <a href="https://hyperskills.net">hyperskills</a> est ouvert. Skillpedia, en tant que répertoire, impose ses propres règles pour l'indexation (signature, identité, etc.).</dd>
+<dd lang="en">The <a href="https://hyperskills.net">hyperskills</a> format is open. Skillpedia, as a directory, imposes its own rules for indexing (signature, identity, etc.).</dd>
+
+<dt lang="fr"><b>MCP ?</b></dt>
+<dt lang="en"><b>MCP?</b></dt>
+<dd lang="fr"><a href="https://modelcontextprotocol.io/">MCP</a> connecte les agents IA aux données. Une skill peut contenir des requêtes vers un serveur MCP.</dd>
+<dd lang="en"><a href="https://modelcontextprotocol.io/">MCP</a> connects AI agents to data. A skill can contain queries to an MCP server.</dd>
+
+<dt lang="fr"><b>WebMCP ?</b></dt>
+<dt lang="en"><b>WebMCP?</b></dt>
+<dd lang="fr"><a href="https://webmachinelearning.github.io/webmcp/">WebMCP</a> expose des outils dans le navigateur. Une skill peut utiliser ces outils.</dd>
+<dd lang="en"><a href="https://webmachinelearning.github.io/webmcp/">WebMCP</a> exposes tools in the browser. A skill can use these tools.</dd>
+
+<dt lang="fr"><b>Agent Skills ?</b></dt>
+<dt lang="en"><b>Agent Skills?</b></dt>
+<dd lang="fr"><a href="https://agentskills.io/">Agent Skills</a> est un format ouvert pour les skills (SKILL.md). Skillpedia accepte ce format mais ne l'impose pas.</dd>
+<dd lang="en"><a href="https://agentskills.io/">Agent Skills</a> is an open format for skills (SKILL.md). Skillpedia accepts this format but does not require it.</dd>
+
+<dt lang="fr"><b>Open-Root ?</b></dt>
+<dt lang="en"><b>Open-Root?</b></dt>
+<dd lang="fr"><a href="https://www.open-root.eu/">Open-Root</a>, créé par Louis Pouzin (inventeur du datagramme). Système de nommage internet indépendant d'ICANN.</dd>
+<dd lang="en"><a href="https://www.open-root.eu/">Open-Root</a>, created by Louis Pouzin (inventor of the datagram). Internet naming system independent of ICANN.</dd>
+
+</dl>
+
+<hr>
+<p>CC-BY-SA-4.0 — <a href="https://skillpedia.eu">skillpedia.eu</a></p>
+
+<script>
+function toggleLang() {
+  var b = document.body, n = b.getAttribute('data-lang') === 'fr' ? 'en' : 'fr';
+  b.setAttribute('data-lang', n);
+  document.querySelector('a[onclick]').textContent = '[' + (n === 'fr' ? 'EN' : 'FR') + ']';
+}
+if (navigator.language.slice(0,2) !== 'fr') {
+  document.body.setAttribute('data-lang', 'en');
+  document.querySelector('a[onclick]').textContent = '[FR]';
+}
+</script>
+
+</body>
+</html>

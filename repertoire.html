@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Skillpedia — Répertoire / Directory</title>
+<meta charset="UTF-8">
+<style>
+[data-lang="fr"] [lang="en"],
+[data-lang="en"] [lang="fr"] { display: none; }
+.cat { width: 50%; vertical-align: top; padding: 0 1em 1em 0; }
+</style>
+</head>
+<body>
+
+<h1>Skillpedia</h1>
+
+<p><a href="./index.html" lang="fr">Accueil</a><a href="./index.html" lang="en">Home</a></p>
+
+<table lang="fr"><tr>
+<td class="cat">
+<p><b><a href="#">Arts et humanités</a></b><br>
+<small>Littérature, photographie...</small></p>
+<p><b><a href="#">Commerce et économie</a></b><br>
+<small>Entreprises, finance, emploi...</small></p>
+<p><b><a href="#">Informatique et Internet</a></b><br>
+<small>Internet, web, logiciels, jeux...</small></p>
+<p><b><a href="#">Éducation</a></b><br>
+<small>Universités, primaire, secondaire...</small></p>
+<p><b><a href="#">Divertissement</a></b><br>
+<small>Cinéma, humour, musique...</small></p>
+<p><b><a href="#">Gouvernement</a></b><br>
+<small>Élections, armée, droit, impôts...</small></p>
+<p><b><a href="#">Santé</a></b><br>
+<small>Médecine, maladies, médicaments...</small></p>
+</td>
+<td class="cat">
+<p><b><a href="#">Actualités et médias</a></b><br>
+<small>Journaux, télévision...</small></p>
+<p><b><a href="#">Parlement et législation</a></b><br>
+<small><a href="https://tricoteuses.fr/recettes/">Amendements</a>, votes, dossiers législatifs...</small></p>
+<p><b><a href="#">Loisirs et sports</a></b><br>
+<small>Sports, voyages, automobile, plein air...</small></p>
+<p><b><a href="#">Référence</a></b><br>
+<small>Bibliothèques, dictionnaires, citations...</small></p>
+<p><b><a href="#">Régional</a></b><br>
+<small>Pays, régions, départements...</small></p>
+<p><b><a href="#">Science</a></b><br>
+<small>Biologie, astronomie, ingénierie...</small></p>
+<p><b><a href="#">Sciences sociales</a></b><br>
+<small>Archéologie, économie, langues...</small></p>
+</td>
+</tr></table>
+
+<table lang="en"><tr>
+<td class="cat">
+<p><b><a href="#">Arts &amp; Humanities</a></b><br>
+<small>Literature, Photography...</small></p>
+<p><b><a href="#">Business &amp; Economy</a></b><br>
+<small>Companies, Finance, Jobs...</small></p>
+<p><b><a href="#">Computers &amp; Internet</a></b><br>
+<small>Internet, WWW, Software, Games...</small></p>
+<p><b><a href="#">Education</a></b><br>
+<small>Universities, K-12, College Entrance...</small></p>
+<p><b><a href="#">Entertainment</a></b><br>
+<small>Cool Links, Movies, Humor, Music...</small></p>
+<p><b><a href="#">Government</a></b><br>
+<small>Elections, Military, Law, Taxes...</small></p>
+<p><b><a href="#">Health</a></b><br>
+<small>Medicine, Diseases, Drugs, Fitness...</small></p>
+</td>
+<td class="cat">
+<p><b><a href="#">News &amp; Media</a></b><br>
+<small>Full Coverage, Newspapers, TV...</small></p>
+<p><b><a href="#">Parliament &amp; Legislation</a></b><br>
+<small><a href="https://tricoteuses.fr/recettes/">Amendments</a>, Votes, Legislative Files...</small></p>
+<p><b><a href="#">Recreation &amp; Sports</a></b><br>
+<small>Sports, Travel, Autos, Outdoors...</small></p>
+<p><b><a href="#">Reference</a></b><br>
+<small>Libraries, Dictionaries, Quotations...</small></p>
+<p><b><a href="#">Regional</a></b><br>
+<small>Countries, Regions, US States...</small></p>
+<p><b><a href="#">Science</a></b><br>
+<small>Biology, Astronomy, Engineering...</small></p>
+<p><b><a href="#">Social Science</a></b><br>
+<small>Archaeology, Economics, Languages...</small></p>
+</td>
+</tr></table>
+
+<hr>
+<p>CC-BY-SA-4.0 — <a href="https://skillpedia.eu">skillpedia.eu</a> <select onchange="document.body.setAttribute('data-lang',this.value)"><option value="fr">FR</option><option value="en">EN</option></select></p>
+
+<script>
+(function() {
+  var lang = navigator.language.slice(0,2) === 'fr' ? 'fr' : 'en';
+  document.body.setAttribute('data-lang', lang);
+  document.querySelector('select').value = lang;
+})();
+</script>
+
+</body>
+</html>
