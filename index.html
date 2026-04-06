@@ -1,8 +1,11 @@
-<html lang="fr">
+<html lang="en" itemscope itemtype="https://schema.org/WebSite">
 <head>
 <title>Skillpedia — Directory of skills for AI and human agents</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta itemprop="name" content="Skillpedia">
+<meta itemprop="description" content="A directory of skills — instruction files for AI and human agents, encoded as hyperskills.">
+<link itemprop="url" href="https://skillpedia.eu/">
 <meta name="description" content="Skillpedia is a directory of skills — instruction files for AI and human agents, encoded as hyperskills.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://skillpedia.eu/">
@@ -10,84 +13,44 @@
 <meta property="og:description" content="A directory of skills for AI and human agents, encoded as hyperskills.">
 <meta property="og:url" content="https://skillpedia.eu/">
 <meta property="og:type" content="website">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Skillpedia",
-  "url": "https://skillpedia.eu",
-  "description": "A directory of skills — instruction files for AI and human agents, encoded as hyperskills",
-  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "copyrightHolder": {"@type": "Organization", "name": "CERI SAS"},
-  "inLanguage": ["fr", "en"],
-  "sameAs": ["https://github.com/jeanbaptiste/skillpedia"]
-}
-</script>
-<style>
-[data-lang="fr"] [lang="en"],
-[data-lang="en"] [lang="fr"] { display: none; }
-</style>
 </head>
 <body>
 
 <h1>Skillpedia</h1>
 
-<p lang="fr">Skillpedia est un <a href="./repertoire.html">répertoire</a> de skills, des fichiers d'instruction qui contiennent des bonnes pratiques pour aider un agent (IA ou humain) à accomplir une tâche. Tout ce qui concerne Skillpedia est lié à ce document, y compris le <a href="./manifeste.md">manifeste</a> et la <a href="./faq.html">foire aux questions</a>.</p>
-
-<p lang="en">Skillpedia is a <a href="./repertoire.html">directory</a> of skills, instruction files containing best practices to help an agent (AI or human) accomplish a task. Everything about Skillpedia is linked from this document, including the <a href="./manifeste.md">manifesto</a> and the <a href="./faq.html">FAQ</a>.</p>
+<p>Skillpedia is a <a href="./repertoire.html">directory</a> of skills, instruction files containing best practices to help an agent (AI or human) accomplish a task. Everything about Skillpedia is linked from this document, including the <a href="./manifeste.en.md">manifesto</a> and the <a href="./faq.html">FAQ</a>.</p>
 
 <dl>
 
-<dt lang="fr"><a href="./manifeste.md">Pourquoi ?</a></dt>
-<dt lang="en"><a href="./manifeste.en.md">Why?</a></dt>
-<dd lang="fr">Le <a href="https://worldwideweb.cern.ch/">premier navigateur web</a> (1990) était aussi un éditeur. Le web a été conçu pour lire et écrire, mais cette notion fondamentale s'est perdue au fil des années.</dd>
-<dd lang="en">The <a href="https://worldwideweb.cern.ch/">first web browser</a> (1990) was also an editor. The web was designed for reading and writing, but this fundamental notion was lost over the years.</dd>
+<dt><a href="./manifeste.en.md">Why?</a></dt>
+<dd>The <a href="https://worldwideweb.cern.ch/">first web browser</a> (1990) was also an editor. The web was designed for reading and writing, but this fundamental notion was lost over the years.</dd>
 
-<dt lang="fr"><a href="https://hyperskills.net">Comment ?</a></dt>
-<dt lang="en"><a href="https://hyperskills.net">How?</a></dt>
-<dd lang="fr">Skillpedia recense les skills sous licence creative commons et encodées au format <a href="https://hyperskills.net">hyperskills</a>, en base64 dans le paramètre <code>hs</code> d'une URL :</dd>
-<dd lang="en">Skillpedia lists skills under creative commons license, encoded in the <a href="https://hyperskills.net">hyperskills</a> format, base64 in the <code>hs</code> parameter of a URL:</dd>
+<dt><a href="https://hyperskills.net">How?</a></dt>
+<dd>Skillpedia lists skills under creative commons license, encoded in the <a href="https://hyperskills.net">hyperskills</a> format, base64 in the <code>hs</code> parameter of a URL:</dd>
 <br>
-<dd><a href=https://tricoteuses.fr/recettes/analyser_amendements?hs=LS0tCnRpdGxlOiAiQW5hbHlzZXIgbGVzIGFtZW5kZW1lbnRzIgpkZXNjcmlwdGlvbjogIlJlY2hlcmNoZXIgZXQgYW5hbHlzZXIgbGVzIGFtZW5kZW1lbnRzIMOgIHBhcnRpciBkZXMgdGFibGVzIGR1IHNjaMOpbWEgYGFzc2VtYmxlZWAgZGUgYGNhbnV0ZXNgLiIKdGFnczogWyJhbWVuZGVtZW50cyIsICJjb3NpZ25hdGFpcmVzIiwgImTDqXB1dMOpcyIsICJzcWwiLCAianNvbmIiXQotLS0KCkxhIGJhc2UgdW5pcXVlIGBjYW51dGVzYCBleHBvc2UgbGVzIHNjaMOpbWFzIGBhc3NlbWJsZWVgLCBgbGVnaWZyYW5jZWAgZXQgYHNlbmF0YC4gQ2V0dGUgcmVjZXR0ZSBjaWJsZSBgYXNzZW1ibGVlYCwgZW4gdHJhdmFpbGxhbnQgZGlyZWN0ZW1lbnQgc3VyIGBhc3NlbWJsZWUuYW1lbmRlbWVudHNgIDoKCi0gdW5lIHBhcnRpZSBkZXMgZmlsdHJlcyBlc3QgZGlzcG9uaWJsZSBkYW5zIGRlcyBjb2xvbm5lcyBkw6lub3JtYWxpc8OpZXMgKGB0ZXh0ZV9sb2lfdWlkYCwgYGxlZ2lzbGF0dXJlYCksCi0gbGVzIHNpZ25hdGFpcmVzIGTDqXB1dMOpcyBkaXNwb3NlbnQgZCd1bmUgdGFibGUgZGUgam9pbnR1cmUgYGRlcHV0ZXNfc2lnbmF0YWlyZXNfYW1lbmRlbWVudHNgLAotIGlsIG4nZXhpc3RlIHBhcyBkZSB0YWJsZSByZWxhdGlvbm5lbGxlIGTDqWRpw6llIHBvdXIgdG91dGVzIGxlcyBjb3NpZ25hdHVyZXMsIGlsIGZhdXQgZG9uYyBjb21iaW5lciBqb2ludHVyZSBldCBKU09OQiBzZWxvbiBsZSBiZXNvaW4uCgojIyAxLiBSZWNoZXJjaGVyIGxlcyBhbWVuZGVtZW50cyBkJ3VuIGTDqXB1dMOpCg...">https://tricoteuses.fr/recettes/analyser_amendements?hs=LS0tCnRpdGxlOiAiQW5hbHlzZXIgbGVzIGFtZW5kZW1lbnRzIgpkZXNjcmlwdGlvbjogIlJlY2hlcmNoZXIgZXQgYW5hbHlzZXIgbGVzIGFtZW5kZW1lbnRzIMOgIHBhcnRpciBkZXMgdGFibGVzIGR1IHNjaMOpbWEgYGFzc2VtYmxlZWAgZGUgYGNhbnV0ZXNgLiIKdGFnczogWyJhbWVuZGVtZW50cyIsICJjb3NpZ25hdGFpcmVzIiwgImTDqXB1dMOpcyIsICJzcWwiLCAianNvbmIiXQotLS0KCkxhIGJhc2UgdW5pcXVlIGBjYW51dGVzYCBleHBvc2UgbGVzIHNjaMOpbWFzIGBhc3NlbWJsZWVgLCBgbGVnaWZyYW5jZWAgZXQgYHNlbmF0YC4gQ2V0dGUgcmVjZXR0ZSBjaWJsZSBgYXNzZW1ibGVlYCwgZW4gdHJhdmFpbGxhbnQgZGlyZWN0ZW1lbnQgc3VyIGBhc3NlbWJsZWUuYW1lbmRlbWVudHNgIDoKCi0gdW5lIHBhcnRpZSBkZXMgZmlsdHJlcyBlc3QgZGlzcG9uaWJsZSBkYW5zIGRlcyBjb2xvbm5lcyBkw6lub3JtYWxpc8OpZXMgKGB0ZXh0ZV9sb2lfdWlkYCwgYGxlZ2lzbGF0dXJlYCksCi0gbGVzIHNpZ25hdGFpcmVzIGTDqXB1dMOpcyBkaXNwb3NlbnQgZCd1bmUgdGFibGUgZGUgam9pbnR1cmUgYGRlcHV0ZXNfc2lnbmF0YWlyZXNfYW1lbmRlbWVudHNgLAotIGlsIG4nZXhpc3RlIHBhcyBkZSB0YWJsZSByZWxhdGlvbm5lbGxlIGTDqWRpw6llIHBvdXIgdG91dGVzIGxlcyBjb3NpZ25hdHVyZXMsIGlsIGZhdXQgZG9uYyBjb21iaW5lciBqb2ludHVyZSBldCBKU09OQiBzZWxvbiBsZSBiZXNvaW4uCgojIyAxLiBSZWNoZXJjaGVyIGxlcyBhbWVuZGVtZW50cyBkJ3VuIGTDqXB1dMOpCg...</a>
+<dd><a href=https://tricoteuses.fr/recettes/analyser_amendements?hs=LS0tCnRpdGxlOiAiQW5hbHlzZXIgbGVzIGFtZW5kZW1lbnRzIgpkZXNjcmlwdGlvbjogIlJlY2hlcmNoZXIgZXQgYW5hbHlzZXIgbGVzIGFtZW5kZW1lbnRzIMOgIHBhcnRpciBkZXMgdGFibGVzIGR1IHNjaMOpbWEgYGFzc2VtYmxlZWAgZGUgYGNhbnV0ZXNgLiIKdGFnczogWyJhbWVuZGVtZW50cyIsICJjb3NpZ25hdGFpcmVzIiwgImTDqXB1dMOpcyIsICJzcWwiLCAianNvbmIiXQotLS0KCkxhIGJhc2UgdW5pcXVlIGBjYW51dGVzYCBleHBvc2UgbGVzIHNjaMOpbWFzIGBhc3NlbWJsZWVgLCBgbGVnaWZyYW5jZWAgZXQgYHNlbmF0YC4gQ2V0dGUgcmVjZXR0ZSBjaWJsZSBgYXNzZW1ibGVlYCwgZW4gdHJhdmFpbGxhbnQgZGlyZWN0ZW1lbnQgc3VyIGBhc3NlbWJsZWUuYW1lbmRlbWVudHNgIDoKCi0gdW5lIHBhcnRpZSBkZXMgZmlsdHJlcyBlc3QgZGlzcG9uaWJsZSBkYW5zIGRlcyBjb2xvbm5lcyBkw6lub3JtYWxpc8OpZXMgKGB0ZXh0ZV9sb2lfdWlkYCwgYGxlZ2lzbGF0dXJlYCksCi0gbGVzIHNpZ25hdGFpcmVzIGTDqXB1dMOpcyBkaXNwb3NlbnQgZCd1bmUgdGFibGUgZGUgam9pbnR1cmUgYGRlcHV0ZXNfc2lnbmF0YWlyZXNfYW1lbmRlbWVudHNgLAotIGlsIG4nZXhpc3RlIHBhcyBkZSB0YWJsZSByZWxhdGlvbm5lbGxlIGTDqWRpw6llIHBvdXIgdG91dGVzIGxlcyBjb3NpZ25hdHVyZXMsIGlsIGZhdXQgZG9uYyBjb21iaW5lciBqb2ludHVyZSBldCBKU09OQiBzZWxvbiBsZSBiZXNvaW4uCgojIyAxLiBSZWNoZXJjaGVyIGxlcyBhbWVuZGVtZW50cyBkJ3VuIGTDqXB1dMOpCg...>https://tricoteuses.fr/recettes/analyser_amendements?hs=LS0tCnRpdGxlOiAiQW5hbHlzZXIgbGVzIGFtZW5kZW1lbnRzIgpkZXNjcmlwdGlvbjogIlJlY2hlcmNoZXIgZXQgYW5hbHlzZXIgbGVzIGFtZW5kZW1lbnRzIMOgIHBhcnRpciBkZXMgdGFibGVzIGR1IHNjaMOpbWEgYGFzc2VtYmxlZWAgZGUgYGNhbnV0ZXNgLiIKdGFnczogWyJhbWVuZGVtZW50cyIsICJjb3NpZ25hdGFpcmVzIiwgImTDqXB1dMOpcyIsICJzcWwiLCAianNvbmIiXQotLS0KCkxhIGJhc2UgdW5pcXVlIGBjYW51dGVzYCBleHBvc2UgbGVzIHNjaMOpbWFzIGBhc3NlbWJsZWVgLCBgbGVnaWZyYW5jZWAgZXQgYHNlbmF0YC4gQ2V0dGUgcmVjZXR0ZSBjaWJsZSBgYXNzZW1ibGVlYCwgZW4gdHJhdmFpbGxhbnQgZGlyZWN0ZW1lbnQgc3VyIGBhc3NlbWJsZWUuYW1lbmRlbWVudHNgIDoKCi0gdW5lIHBhcnRpZSBkZXMgZmlsdHJlcyBlc3QgZGlzcG9uaWJsZSBkYW5zIGRlcyBjb2xvbm5lcyBkw6lub3JtYWxpc8OpZXMgKGB0ZXh0ZV9sb2lfdWlkYCwgYGxlZ2lzbGF0dXJlYCksCi0gbGVzIHNpZ25hdGFpcmVzIGTDqXB1dMOpcyBkaXNwb3NlbnQgZCd1bmUgdGFibGUgZGUgam9pbnR1cmUgYGRlcHV0ZXNfc2lnbmF0YWlyZXNfYW1lbmRlbWVudHNgLAotIGlsIG4nZXhpc3RlIHBhcyBkZSB0YWJsZSByZWxhdGlvbm5lbGxlIGTDqWRpw6llIHBvdXIgdG91dGVzIGxlcyBjb3NpZ25hdHVyZXMsIGlsIGZhdXQgZG9uYyBjb21iaW5lciBqb2ludHVyZSBldCBKU09OQiBzZWxvbiBsZSBiZXNvaW4uCgojIyAxLiBSZWNoZXJjaGVyIGxlcyBhbWVuZGVtZW50cyBkJ3VuIGTDqXB1dMOpCg...</a>
 </dd>
 <br>
-<dt lang="fr"><a href="./faq.html">Foire aux questions</a></dt>
-<dt lang="en"><a href="./faq.html">FAQ</a></dt>
-<dd lang="fr">Réponses aux questions fréquentes sur les skills, les hyperskills, le format, la licence.</dd>
-<dd lang="en">Answers to frequent questions about skills, hyperskills, format, license.</dd>
+<dt><a href="./faq.html">FAQ</a></dt>
+<dd>Answers to frequent questions about skills, hyperskills, format, license.</dd>
 
-<dt lang="fr"><a href="./repertoire.html">Répertoire</a></dt>
-<dt lang="en"><a href="./repertoire.html">Directory</a></dt>
-<dd lang="fr"><a href="./repertoire.html">Les skills par catégorie.</a></dd>
-<dd lang="en"><a href="./repertoire.html">Skills by category.</a></dd>
+<dt><a href="./repertoire.html">Directory</a></dt>
+<dd><a href="./repertoire.html">Skills by category.</a></dd>
 
-<dt lang="fr"><b>Voir aussi</b></dt>
-<dt lang="en"><b>See also</b></dt>
+<dt><b>See also</b></dt>
 <dd><a href="https://hyperskills.net">Hyperskills</a>, <a href="https://modelcontextprotocol.io/">MCP</a>, <a href="https://webmachinelearning.github.io/webmcp/">WebMCP</a>, <a href="https://agentskills.io/">Agent Skills</a>, <a href="https://ipfs.tech/">IPFS</a>, <a href="https://solidproject.org/">Solid</a> (<a href="https://www.w3.org/People/Berners-Lee/">Berners-Lee</a>), <a href="https://www.open-root.eu/">Open-Root</a> (<a href="https://fr.wikipedia.org/wiki/Louis_Pouzin">Pouzin</a>).</dd>
 
 </dl>
 
-
-
 <dl>
 
-<dt lang="fr"><a href="mailto:contact@skillpedia.eu">Comment aider ?</a></dt>
-<dt lang="en"><a href="mailto:contact@skillpedia.eu">How can I help?</a></dt>
-<dd lang="fr">Partager une skill. <a href="https://github.com/jeanbaptiste/skillpedia">Forker ce site.</a></dd>
-<dd lang="en">Share a skill. <a href="https://github.com/jeanbaptiste/skillpedia">Fork this site.</a></dd>
+<dt><a href="mailto:contact@skillpedia.eu">How can I help?</a></dt>
+<dd>Share a skill. <a href="https://github.com/jeanbaptiste/skillpedia">Fork this site.</a></dd>
 
 </dl>
 
 <hr>
-<p>CC BY-NC-SA 4.0 — Copyright CERI SAS — <a href="https://skillpedia.eu">skillpedia.eu</a> — <a href="https://github.com/jeanbaptiste/skillpedia">GitHub</a> <select onchange="document.body.setAttribute('data-lang',this.value)"><option value="fr">FR</option><option value="en">EN</option></select></p>
-
-<script>
-(function() {
-  var lang = navigator.language.slice(0,2) === 'fr' ? 'fr' : 'en';
-  document.body.setAttribute('data-lang', lang);
-  document.querySelector('select').value = lang;
-})();
-</script>
+<p>CC BY-NC-SA 4.0 — Copyright CERI SAS — <a href="https://skillpedia.eu">skillpedia.eu</a> — <a href="https://github.com/jeanbaptiste/skillpedia">GitHub</a> — &#127757; <a href="./international.html">International</a></p>
 
 </body>
 </html>
