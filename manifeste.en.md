@@ -1,6 +1,6 @@
 # Skillpedia — Manifesto
 
-CC BY-NC-SA 4.0 — Copyright CERI SAS
+CC BY-SA 4.0 — Copyright CERI SAS
 
 ## Context
 
@@ -12,20 +12,32 @@ In 1973, Louis Pouzin invented the datagram, a network packet
 that carries its own routing. In 2010, he created Open-Root, an
 internet naming system independent of ICANN.
 
-## Skills
+## Skills (recipes)
 
-A skill is an instruction file: code, queries,
+A skill (recipe) is a set of processes: code, queries,
 presentation rules, best practices. It helps an
 agent (AI or human) accomplish a task.
+
+In a broad sense, a skill and a recipe are the same thing.
+Skillpedia treats both terms as synonymous.
 
 Anthropic formalized skills for Claude. OpenAI uses them
 in Codex. GitHub Copilot, Cursor, VS Code support them. The
 Agent Skills format (agentskills.io) is an open standard.
 
+## Copyright
+
+Recipes and skills are processes: methods, know-how.
+The Berne Convention, the founding international copyright treaty,
+protects works of the mind in their expression, not ideas or processes.
+A recipe describes a process: it generally falls outside the scope of
+copyright. Only a particularly original formulation could be protected.
+Sharing a skill means sharing common knowledge.
+
 ## Hyperskills
 
 A hyperskill (hypertext skill) is a skill base64-encoded
-in the fragment of a URL. The skill content travels with
+in the `hs` parameter of a URL. The skill content travels with
 the link. See hyperskills.net.
 
 By analogy:
