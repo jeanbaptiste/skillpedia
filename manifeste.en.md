@@ -60,10 +60,13 @@ directory.
 ## See also
 
 - hyperskills.net — the hyperskills format
+- blog.hyperskills.net — blog
+- https://github.com/jeanbaptiste/hyperskills — NPM hyperskills
+- https://github.com/jeanbaptiste/webmcp-auto-ui — webmcp-auto-ui (example app)
 - agentskills.io — the Agent Skills format
 - modelcontextprotocol.io — MCP
 - solidproject.org — Solid (Berners-Lee)
-- open-root.eu — Open-Root (Pouzin)
+- https://archive.socinfo.fr/wp-content/uploads/2019/11/RINA-L-Pouzin.pdf — Open-Root (Pouzin)
 - ipfs.tech — IPFS
 
 ---
