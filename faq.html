@@ -24,13 +24,13 @@
 
 <dt lang="fr"><b>C'est quoi une hyperskill ?</b></dt>
 <dt lang="en"><b>What is a hyperskill?</b></dt>
-<dd lang="fr">Une skill encodée en base64 dans le fragment (#) d'une URL. Comme une page web est un document accessible via une URL, une skill est un fichier d'instruction accessible via une hyperskill. Voir <a href="https://hyperskills.net">hyperskills.net</a>.</dd>
-<dd lang="en">A skill base64-encoded in the fragment (#) of a URL. As a web page is a document accessible via a URL, a skill is an instruction file accessible via a hyperskill. See <a href="https://hyperskills.net">hyperskills.net</a>.</dd>
+<dd lang="fr">Une skill encodée en base64 dans le paramètre <code>hs</code> d'une URL. Comme une page web est un document accessible via une URL, une skill est un fichier d'instruction accessible via une hyperskill. Voir <a href="https://hyperskills.net">hyperskills.net</a>.</dd>
+<dd lang="en">A skill base64-encoded in the <code>hs</code> parameter of a URL. As a web page is a document accessible via a URL, a skill is an instruction file accessible via a hyperskill. See <a href="https://hyperskills.net">hyperskills.net</a>.</dd>
 
-<dt lang="fr"><b>Pourquoi dans le fragment ?</b></dt>
-<dt lang="en"><b>Why in the fragment?</b></dt>
-<dd lang="fr">Le fragment (après le #) n'est pas envoyé au serveur. Il reste côté client.</dd>
-<dd lang="en">The fragment (after #) is not sent to the server. It stays client-side.</dd>
+<dt lang="fr"><b>Pourquoi un paramètre <code>hs</code> ?</b></dt>
+<dt lang="en"><b>Why an <code>hs</code> parameter?</b></dt>
+<dd lang="fr">Le paramètre <code>hs</code> rend la skill lisible, bookmarkable et transmissible directement à un agent IA. La skill voyage avec l'URL.</dd>
+<dd lang="en">The <code>hs</code> parameter makes the skill readable, bookmarkable, and directly transmittable to an AI agent. The skill travels with the URL.</dd>
 
 <dt lang="fr"><b>Quelle taille maximum ?</b></dt>
 <dt lang="en"><b>Maximum size?</b></dt>
@@ -80,7 +80,7 @@
 </dl>
 
 <hr>
-<p>CC-BY-SA-4.0 — <a href="https://skillpedia.eu">skillpedia.eu</a></p>
+<p>CC BY-NC-SA 4.0 — <a href="https://skillpedia.eu">skillpedia.eu</a></p>
 
 <script>
 function toggleLang() {
