@@ -17,12 +17,12 @@
 
 <dl>
 
-<dt lang="fr"><b>C'est quoi une skill ?</b></dt>
+<dt lang="fr"><b>C'est quoi une skill (recette) ?</b></dt>
 <dt lang="en"><b>What is a skill?</b></dt>
-<dd lang="fr">Un fichier d'instruction : du code, des requêtes, des règles de présentation, des bonnes pratiques. Pour un agent IA ou humain.</dd>
-<dd lang="en">An instruction file: code, queries, presentation rules, best practices. For an AI or human agent.</dd>
+<dd lang="fr">Un ensemble de procédés : du code, des requêtes, des règles de présentation, des bonnes pratiques. Pour un agent IA ou humain.</dd>
+<dd lang="en">A set of processes: code, queries, presentation rules, best practices. For an AI or human agent.</dd>
 
-<dt lang="fr"><b>C'est quoi une hyperskill ?</b></dt>
+<dt lang="fr"><b>C'est quoi une hyperskill (recette) ?</b></dt>
 <dt lang="en"><b>What is a hyperskill?</b></dt>
 <dd lang="fr">Une skill encodée en base64 dans le paramètre <code>hs</code> d'une URL. Comme une page web est un document accessible via une URL, une skill est un fichier d'instruction accessible via une hyperskill. Voir <a href="https://hyperskills.net">hyperskills.net</a>.</dd>
 <dd lang="en">A skill base64-encoded in the <code>hs</code> parameter of a URL. As a web page is a document accessible via a URL, a skill is an instruction file accessible via a hyperskill. See <a href="https://hyperskills.net">hyperskills.net</a>.</dd>
@@ -34,8 +34,8 @@
 
 <dt lang="fr"><b>Quelle taille maximum ?</b></dt>
 <dt lang="en"><b>Maximum size?</b></dt>
-<dd lang="fr">~64 000 caractères dans les navigateurs modernes. ~48 Ko en base64, ~250-500 Ko avec compression.</dd>
-<dd lang="en">~64,000 characters in modern browsers. ~48 KB in base64, ~250-500 KB with compression.</dd>
+<dd lang="fr">Dépend du navigateur : Chrome/Edge ~32 000 caractères, Firefox ~65 000, Safari ~80 000. Avec compression (préfixe <code>gz.</code> ou <code>br.</code>), des skills de 250-500 Ko tiennent dans ~32 000 caractères.</dd>
+<dd lang="en">Depends on the browser: Chrome/Edge ~32,000 characters, Firefox ~65,000, Safari ~80,000. With compression (prefix <code>gz.</code> or <code>br.</code>), skills of 250-500 KB fit in ~32,000 characters.</dd>
 
 <dt lang="fr"><b>Quel format de contenu ?</b></dt>
 <dt lang="en"><b>What content format?</b></dt>
@@ -80,7 +80,7 @@
 </dl>
 
 <hr>
-<p>CC BY-NC-SA 4.0 — <a href="https://skillpedia.eu">skillpedia.eu</a></p>
+<p>CC BY-SA 4.0 — Copyright CERI SAS — <a href="https://skillpedia.eu">skillpedia.eu</a></p>
 
 <script>
 function toggleLang() {

@@ -21,4 +21,4 @@ A [hyperskill](https://hyperskills.net) encodes a skill as base64 in the `hs` qu
 
 ## License
 
-CC BY-NC-SA 4.0 — Copyright CERI SAS
+CC BY-SA 4.0 — Copyright CERI SAS

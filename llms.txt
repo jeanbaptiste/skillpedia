@@ -25,6 +25,6 @@ Python: base64.b64decode(url.split('hs=')[1]).decode()
 
 ## License
 
-CC BY-NC-SA 4.0 — Copyright CERI SAS
+CC BY-SA 4.0 — Copyright CERI SAS
 Contact: contact@skillpedia.eu
 GitHub: https://github.com/jeanbaptiste/skillpedia

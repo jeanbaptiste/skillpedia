@@ -1,6 +1,6 @@
 # Skillpedia — Manifeste
 
-CC-BY-SA-4.0
+CC BY-SA 4.0 — Copyright CERI SAS
 
 ## Contexte
 
@@ -12,20 +12,32 @@ En 1973, Louis Pouzin invente le datagramme, un paquet réseau
 qui porte son propre routage. En 2010, il crée Open-Root, un
 système de nommage internet indépendant d'ICANN.
 
-## Skills
+## Skills (recettes)
 
-Une skill est un fichier d'instruction : du code, des requêtes,
+Une skill (recette) est un ensemble de procédés : du code, des requêtes,
 des règles de présentation, des bonnes pratiques. Elle aide un
 agent (IA ou humain) à accomplir une tâche.
+
+Dans une acception large, une skill et une recette (recipe) sont
+la même chose. Skillpedia traite les deux termes comme synonymes.
 
 Anthropic a formalisé les skills pour Claude. OpenAI les utilise
 dans Codex. GitHub Copilot, Cursor, VS Code les supportent. Le
 format Agent Skills (agentskills.io) est un standard ouvert.
 
+## Droit d'auteur
+
+Les recettes et skills sont des procédés : des méthodes, des savoir-faire.
+La Convention de Berne, traité international fondateur du droit d'auteur,
+protège les œuvres de l'esprit dans leur expression, non les idées ni
+les procédés. Une recette décrit un processus : elle est en général hors
+du champ du copyright. Seule sa formulation particulièrement originale
+pourrait être protégée. Partager une skill, c'est partager un savoir commun.
+
 ## Hyperskills
 
 Une hyperskill (hypertext skill) est une skill encodée en base64
-dans le fragment d'une URL. Le contenu de la skill voyage avec
+dans le paramètre `hs` d'une URL. Le contenu de la skill voyage avec
 le lien. Voir hyperskills.net.
 
 Par analogie :

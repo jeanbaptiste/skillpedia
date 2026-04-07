@@ -13,7 +13,7 @@
     "see_also_title": "See also",
     "help_title": "How can I help?",
     "help": "Share a skill. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Fork this site.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Copyright CERI SAS"
+    "footer": "CC BY-SA 4.0 — Copyright CERI SAS"
   },
   "zh": {
     "title": "Skillpedia — 面向AI和人类代理的技能目录",
@@ -29,7 +29,7 @@
     "see_also_title": "另见",
     "help_title": "如何帮助?",
     "help": "分享一个技能。<a href=\"https://github.com/jeanbaptiste/skillpedia\">Fork本站。</a>",
-    "footer": "CC BY-NC-SA 4.0 — 版权所有 CERI SAS"
+    "footer": "CC BY-SA 4.0 — 版权所有 CERI SAS"
   },
   "hi": {
     "title": "Skillpedia — AI और मानव एजेंटों के लिए कौशल निर्देशिका",
@@ -45,7 +45,7 @@
     "see_also_title": "यह भी देखें",
     "help_title": "मैं कैसे मदद कर सकता हूँ?",
     "help": "एक कौशल साझा करें। <a href=\"https://github.com/jeanbaptiste/skillpedia\">इस साइट को Fork करें।</a>",
-    "footer": "CC BY-NC-SA 4.0 — कॉपीराइट CERI SAS"
+    "footer": "CC BY-SA 4.0 — कॉपीराइट CERI SAS"
   },
   "es": {
     "title": "Skillpedia — Directorio de habilidades para agentes IA y humanos",
@@ -61,7 +61,7 @@
     "see_also_title": "Ver también",
     "help_title": "¿Cómo puedo ayudar?",
     "help": "Comparte una habilidad. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Haz fork de este sitio.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Copyright CERI SAS"
+    "footer": "CC BY-SA 4.0 — Copyright CERI SAS"
   },
   "ar": {
     "title": "Skillpedia — دليل المهارات لوكلاء الذكاء الاصطناعي والبشر",
@@ -77,7 +77,7 @@
     "see_also_title": "انظر أيضًا",
     "help_title": "كيف يمكنني المساعدة؟",
     "help": "شارك مهارة. <a href=\"https://github.com/jeanbaptiste/skillpedia\">انسخ هذا الموقع (Fork).</a>",
-    "footer": "CC BY-NC-SA 4.0 — حقوق النشر CERI SAS"
+    "footer": "CC BY-SA 4.0 — حقوق النشر CERI SAS"
   },
   "fr": {
     "title": "Skillpedia — Répertoire de compétences pour agents IA et humains",
@@ -93,7 +93,7 @@
     "see_also_title": "Voir aussi",
     "help_title": "Comment aider ?",
     "help": "Partager une skill. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Forker ce site.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Copyright CERI SAS"
+    "footer": "CC BY-SA 4.0 — Copyright CERI SAS"
   },
   "bn": {
     "title": "Skillpedia — AI এবং মানব এজেন্টদের জন্য দক্ষতার তালিকা",
@@ -109,7 +109,7 @@
     "see_also_title": "আরও দেখুন",
     "help_title": "আমি কীভাবে সাহায্য করতে পারি?",
     "help": "একটি দক্ষতা শেয়ার করুন। <a href=\"https://github.com/jeanbaptiste/skillpedia\">এই সাইটটি Fork করুন।</a>",
-    "footer": "CC BY-NC-SA 4.0 — কপিরাইট CERI SAS"
+    "footer": "CC BY-SA 4.0 — কপিরাইট CERI SAS"
   },
   "pt": {
     "title": "Skillpedia — Diretório de habilidades para agentes de IA e humanos",
@@ -125,7 +125,7 @@
     "see_also_title": "Veja também",
     "help_title": "Como posso ajudar?",
     "help": "Compartilhe uma habilidade. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Faça um fork deste site.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Copyright CERI SAS"
+    "footer": "CC BY-SA 4.0 — Copyright CERI SAS"
   },
   "ru": {
     "title": "Skillpedia — Каталог навыков для ИИ и человеческих агентов",
@@ -141,7 +141,7 @@
     "see_also_title": "Смотрите также",
     "help_title": "Как я могу помочь?",
     "help": "Поделитесь навыком. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Сделайте форк этого сайта.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Авторское право CERI SAS"
+    "footer": "CC BY-SA 4.0 — Авторское право CERI SAS"
   },
   "ur": {
     "title": "Skillpedia — AI اور انسانی ایجنٹوں کے لیے مہارتوں کی فہرست",
@@ -157,7 +157,7 @@
     "see_also_title": "یہ بھی دیکھیں",
     "help_title": "میں کیسے مدد کر سکتا ہوں؟",
     "help": "ایک مہارت شیئر کریں۔ <a href=\"https://github.com/jeanbaptiste/skillpedia\">اس سائٹ کو Fork کریں۔</a>",
-    "footer": "CC BY-NC-SA 4.0 — کاپی رائٹ CERI SAS"
+    "footer": "CC BY-SA 4.0 — کاپی رائٹ CERI SAS"
   },
   "id": {
     "title": "Skillpedia — Direktori keterampilan untuk agen AI dan manusia",
@@ -173,7 +173,7 @@
     "see_also_title": "Lihat juga",
     "help_title": "Bagaimana saya bisa membantu?",
     "help": "Bagikan keterampilan. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Fork situs ini.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Hak Cipta CERI SAS"
+    "footer": "CC BY-SA 4.0 — Hak Cipta CERI SAS"
   },
   "de": {
     "title": "Skillpedia — Verzeichnis von Fähigkeiten für KI- und menschliche Agenten",
@@ -189,7 +189,7 @@
     "see_also_title": "Siehe auch",
     "help_title": "Wie kann ich helfen?",
     "help": "Teile eine Fähigkeit. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Forke diese Seite.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Copyright CERI SAS"
+    "footer": "CC BY-SA 4.0 — Copyright CERI SAS"
   },
   "ja": {
     "title": "Skillpedia — AIおよび人間エージェントのためのスキルディレクトリ",
@@ -205,7 +205,7 @@
     "see_also_title": "関連項目",
     "help_title": "どうすれば協力できますか？",
     "help": "スキルを共有してください。<a href=\"https://github.com/jeanbaptiste/skillpedia\">このサイトをフォークしてください。</a>",
-    "footer": "CC BY-NC-SA 4.0 — 著作権 CERI SAS"
+    "footer": "CC BY-SA 4.0 — 著作権 CERI SAS"
   },
   "sw": {
     "title": "Skillpedia — Saraka ya ujuzi kwa mawakala wa AI na binadamu",
@@ -221,7 +221,7 @@
     "see_also_title": "Angalia pia",
     "help_title": "Ninawezaje kusaidia?",
     "help": "Shiriki ujuzi. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Nakili tovuti hii (Fork).</a>",
-    "footer": "CC BY-NC-SA 4.0 — Hakimiliki CERI SAS"
+    "footer": "CC BY-SA 4.0 — Hakimiliki CERI SAS"
   },
   "mr": {
     "title": "Skillpedia — AI आणि मानवी एजंटसाठी कौशल्य निर्देशिका",
@@ -237,7 +237,7 @@
     "see_also_title": "हे देखील पहा",
     "help_title": "मी कशी मदत करू शकतो?",
     "help": "एक कौशल्य शेअर करा. <a href=\"https://github.com/jeanbaptiste/skillpedia\">या साइटला Fork करा.</a>",
-    "footer": "CC BY-NC-SA 4.0 — कॉपीराइट CERI SAS"
+    "footer": "CC BY-SA 4.0 — कॉपीराइट CERI SAS"
   },
   "te": {
     "title": "Skillpedia — AI మరియు మానవ ఏజెంట్ల కోసం నైపుణ్య డైరెక్టరీ",
@@ -253,7 +253,7 @@
     "see_also_title": "ఇవి కూడా చూడండి",
     "help_title": "నేను ఎలా సహాయం చేయగలను?",
     "help": "ఒక నైపుణ్యాన్ని షేర్ చేయండి. <a href=\"https://github.com/jeanbaptiste/skillpedia\">ఈ సైట్‌ను Fork చేయండి.</a>",
-    "footer": "CC BY-NC-SA 4.0 — కాపీరైట్ CERI SAS"
+    "footer": "CC BY-SA 4.0 — కాపీరైట్ CERI SAS"
   },
   "tr": {
     "title": "Skillpedia — Yapay zeka ve insan ajanları için beceri rehberi",
@@ -269,7 +269,7 @@
     "see_also_title": "Ayrıca bakınız",
     "help_title": "Nasıl yardımcı olabilirim?",
     "help": "Bir beceri paylaşın. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Bu siteyi forklayın.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Telif Hakkı CERI SAS"
+    "footer": "CC BY-SA 4.0 — Telif Hakkı CERI SAS"
   },
   "ko": {
     "title": "Skillpedia — AI 및 인간 에이전트를 위한 스킬 디렉토리",
@@ -285,7 +285,7 @@
     "see_also_title": "참고",
     "help_title": "어떻게 도울 수 있나요?",
     "help": "스킬을 공유하세요. <a href=\"https://github.com/jeanbaptiste/skillpedia\">이 사이트를 포크하세요.</a>",
-    "footer": "CC BY-NC-SA 4.0 — 저작권 CERI SAS"
+    "footer": "CC BY-SA 4.0 — 저작권 CERI SAS"
   },
   "vi": {
     "title": "Skillpedia — Danh mục kỹ năng cho tác nhân AI và con người",
@@ -301,7 +301,7 @@
     "see_also_title": "Xem thêm",
     "help_title": "Tôi có thể giúp gì?",
     "help": "Chia sẻ một kỹ năng. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Fork trang này.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Bản quyền CERI SAS"
+    "footer": "CC BY-SA 4.0 — Bản quyền CERI SAS"
   },
   "he": {
     "title": "Skillpedia — מדריך מיומנויות לסוכני בינה מלאכותית ואנושיים",
@@ -317,7 +317,7 @@
     "see_also_title": "ראו גם",
     "help_title": "איך אני יכול לעזור?",
     "help": "שתפו מיומנות. <a href=\"https://github.com/jeanbaptiste/skillpedia\">עשו Fork לאתר הזה.</a>",
-    "footer": "CC BY-NC-SA 4.0 — זכויות יוצרים CERI SAS"
+    "footer": "CC BY-SA 4.0 — זכויות יוצרים CERI SAS"
   },
   "it": {
     "title": "Skillpedia — Repertorio di competenze per agenti IA e umani",
@@ -333,7 +333,7 @@
     "see_also_title": "Vedi anche",
     "help_title": "Come posso aiutare?",
     "help": "Condividi una competenza. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Fai il fork di questo sito.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Copyright CERI SAS"
+    "footer": "CC BY-SA 4.0 — Copyright CERI SAS"
   },
   "pl": {
     "title": "Skillpedia — Katalog umiejętności dla agentów AI i ludzi",
@@ -349,7 +349,7 @@
     "see_also_title": "Zobacz także",
     "help_title": "Jak mogę pomóc?",
     "help": "Udostępnij umiejętność. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Zrób fork tej strony.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Prawa autorskie CERI SAS"
+    "footer": "CC BY-SA 4.0 — Prawa autorskie CERI SAS"
   },
   "ro": {
     "title": "Skillpedia — Director de competențe pentru agenți IA și umani",
@@ -365,7 +365,7 @@
     "see_also_title": "Vezi și",
     "help_title": "Cum pot ajuta?",
     "help": "Împărtășește o competență. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Fă fork la acest site.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Drepturi de autor CERI SAS"
+    "footer": "CC BY-SA 4.0 — Drepturi de autor CERI SAS"
   },
   "nl": {
     "title": "Skillpedia — Register van vaardigheden voor AI- en menselijke agenten",
@@ -381,7 +381,7 @@
     "see_also_title": "Zie ook",
     "help_title": "Hoe kan ik helpen?",
     "help": "Deel een vaardigheid. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Fork deze site.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Copyright CERI SAS"
+    "footer": "CC BY-SA 4.0 — Copyright CERI SAS"
   },
   "el": {
     "title": "Skillpedia — Κατάλογος δεξιοτήτων για πράκτορες ΤΝ και ανθρώπους",
@@ -397,7 +397,7 @@
     "see_also_title": "Δείτε επίσης",
     "help_title": "Πώς μπορώ να βοηθήσω;",
     "help": "Μοιραστείτε μια δεξιότητα. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Κάντε fork αυτόν τον ιστότοπο.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Πνευματικά δικαιώματα CERI SAS"
+    "footer": "CC BY-SA 4.0 — Πνευματικά δικαιώματα CERI SAS"
   },
   "hu": {
     "title": "Skillpedia — Készségkatalógus MI- és emberi ügynökök számára",
@@ -413,7 +413,7 @@
     "see_also_title": "Lásd még",
     "help_title": "Hogyan segíthetek?",
     "help": "Osszon meg egy készséget. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Forkolja ezt az oldalt.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Szerzői jog CERI SAS"
+    "footer": "CC BY-SA 4.0 — Szerzői jog CERI SAS"
   },
   "cs": {
     "title": "Skillpedia — Katalog dovedností pro AI a lidské agenty",
@@ -429,7 +429,7 @@
     "see_also_title": "Viz také",
     "help_title": "Jak mohu pomoci?",
     "help": "Sdílejte dovednost. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Forkněte tento web.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Autorská práva CERI SAS"
+    "footer": "CC BY-SA 4.0 — Autorská práva CERI SAS"
   },
   "sv": {
     "title": "Skillpedia — Katalog över färdigheter för AI- och mänskliga agenter",
@@ -445,7 +445,7 @@
     "see_also_title": "Se även",
     "help_title": "Hur kan jag hjälpa till?",
     "help": "Dela en färdighet. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Forka denna webbplats.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Upphovsrätt CERI SAS"
+    "footer": "CC BY-SA 4.0 — Upphovsrätt CERI SAS"
   },
   "bg": {
     "title": "Skillpedia — Каталог на умения за AI и човешки агенти",
@@ -461,7 +461,7 @@
     "see_also_title": "Вижте също",
     "help_title": "Как мога да помогна?",
     "help": "Споделете умение. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Направете fork на този сайт.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Авторско право CERI SAS"
+    "footer": "CC BY-SA 4.0 — Авторско право CERI SAS"
   },
   "da": {
     "title": "Skillpedia — Katalog over færdigheder for AI- og menneskelige agenter",
@@ -477,7 +477,7 @@
     "see_also_title": "Se også",
     "help_title": "Hvordan kan jeg hjælpe?",
     "help": "Del en færdighed. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Fork denne side.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Ophavsret CERI SAS"
+    "footer": "CC BY-SA 4.0 — Ophavsret CERI SAS"
   },
   "fi": {
     "title": "Skillpedia — Taitoluettelo tekoäly- ja ihmisagenteille",
@@ -493,7 +493,7 @@
     "see_also_title": "Katso myös",
     "help_title": "Miten voin auttaa?",
     "help": "Jaa taito. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Forkkaa tämä sivusto.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Tekijänoikeus CERI SAS"
+    "footer": "CC BY-SA 4.0 — Tekijänoikeus CERI SAS"
   },
   "sk": {
     "title": "Skillpedia — Katalóg zručností pre AI a ľudských agentov",
@@ -509,7 +509,7 @@
     "see_also_title": "Pozri tiež",
     "help_title": "Ako môžem pomôcť?",
     "help": "Zdieľajte zručnosť. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Forknite túto stránku.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Autorské práva CERI SAS"
+    "footer": "CC BY-SA 4.0 — Autorské práva CERI SAS"
   },
   "hr": {
     "title": "Skillpedia — Katalog vještina za AI i ljudske agente",
@@ -525,7 +525,7 @@
     "see_also_title": "Vidi također",
     "help_title": "Kako mogu pomoći?",
     "help": "Podijelite vještinu. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Forkajte ovu stranicu.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Autorska prava CERI SAS"
+    "footer": "CC BY-SA 4.0 — Autorska prava CERI SAS"
   },
   "lt": {
     "title": "Skillpedia — Įgūdžių katalogas dirbtinio intelekto ir žmogaus agentams",
@@ -541,7 +541,7 @@
     "see_also_title": "Taip pat žiūrėkite",
     "help_title": "Kaip galiu padėti?",
     "help": "Pasidalykite įgūdžiu. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Forknkite šią svetainę.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Autorių teisės CERI SAS"
+    "footer": "CC BY-SA 4.0 — Autorių teisės CERI SAS"
   },
   "sl": {
     "title": "Skillpedia — Katalog veščin za agente UI in ljudi",
@@ -557,7 +557,7 @@
     "see_also_title": "Glejte tudi",
     "help_title": "Kako lahko pomagam?",
     "help": "Delite veščino. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Naredite fork te strani.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Avtorske pravice CERI SAS"
+    "footer": "CC BY-SA 4.0 — Avtorske pravice CERI SAS"
   },
   "lv": {
     "title": "Skillpedia — Prasmju katalogs MI un cilvēku aģentiem",
@@ -573,7 +573,7 @@
     "see_also_title": "Skatīt arī",
     "help_title": "Kā es varu palīdzēt?",
     "help": "Dalieties ar prasmi. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Izveidojiet šīs vietnes fork.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Autortiesības CERI SAS"
+    "footer": "CC BY-SA 4.0 — Autortiesības CERI SAS"
   },
   "et": {
     "title": "Skillpedia — Oskuste kataloog tehisintellekti ja inimestest agentidele",
@@ -589,7 +589,7 @@
     "see_also_title": "Vaata ka",
     "help_title": "Kuidas saan aidata?",
     "help": "Jagage oskust. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Tehke sellest saidist fork.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Autoriõigus CERI SAS"
+    "footer": "CC BY-SA 4.0 — Autoriõigus CERI SAS"
   },
   "mt": {
     "title": "Skillpedia — Direttorju ta' ħiliet għal aġenti tal-IA u bnedmin",
@@ -605,7 +605,7 @@
     "see_also_title": "Ara wkoll",
     "help_title": "Kif nista' ngħin?",
     "help": "Aqsam ħila. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Agħmel fork ta' dan is-sit.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Drittijiet tal-awtur CERI SAS"
+    "footer": "CC BY-SA 4.0 — Drittijiet tal-awtur CERI SAS"
   },
   "ga": {
     "title": "Skillpedia — Eolaire scileanna d'áisíneachtaí IS agus daoine",
@@ -621,7 +621,7 @@
     "see_also_title": "Féach freisin",
     "help_title": "Conas is féidir liom cabhrú?",
     "help": "Roinn scil. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Déan forc ar an suíomh seo.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Cóipcheart CERI SAS"
+    "footer": "CC BY-SA 4.0 — Cóipcheart CERI SAS"
   },
   "br": {
     "title": "Skillpedia — Roll barregezhoù evit ajañsoù IA ha mab-den",
@@ -637,7 +637,7 @@
     "see_also_title": "Gwelet ivez",
     "help_title": "Penaos skoazellañ?",
     "help": "Rannañ ur varregezh. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Forkit al lec'hienn-mañ.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Gwirioù aozer CERI SAS"
+    "footer": "CC BY-SA 4.0 — Gwirioù aozer CERI SAS"
   },
   "eu": {
     "title": "Skillpedia — Trebetasun-katalogoa AI eta giza agenteentzat",
@@ -653,7 +653,7 @@
     "see_also_title": "Ikus baita ere",
     "help_title": "Nola lagundu dezaket?",
     "help": "Partekatu trebetasun bat. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Egin fork gune honi.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Copyright CERI SAS"
+    "footer": "CC BY-SA 4.0 — Copyright CERI SAS"
   },
   "co": {
     "title": "Skillpedia — Repertoriu di cumpand' and per agenti IA è umani",
@@ -669,7 +669,7 @@
     "see_also_title": "Vede ancu",
     "help_title": "Cumu possu aiutà?",
     "help": "Sparte una cumpand'anda. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Fà u fork di stu situ.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Diritti d'autore CERI SAS"
+    "footer": "CC BY-SA 4.0 — Diritti d'autore CERI SAS"
   },
   "eo": {
     "title": "Skillpedia — Katalogo de kapabloj por AI kaj homaj agentoj",
@@ -685,7 +685,7 @@
     "see_also_title": "Vidu ankaŭ",
     "help_title": "Kiel mi povas helpi?",
     "help": "Kunhavigu kapablon. <a href=\"https://github.com/jeanbaptiste/skillpedia\">Forku ĉi tiun retejon.</a>",
-    "footer": "CC BY-NC-SA 4.0 — Kopirajto CERI SAS"
+    "footer": "CC BY-SA 4.0 — Kopirajto CERI SAS"
   },
   "jbo": {
     "title": "Skillpedia — lo liste be lo ka certu ku pe lo skami jimpe joi remna",
@@ -701,6 +701,6 @@
     "see_also_title": "viska ji'a",
     "help_title": "mi ka'e sidju ta'i ma",
     "help": "ko benji lo ka certu. <a href=\"https://github.com/jeanbaptiste/skillpedia\">ko forku ti noi kibypapri.</a>",
-    "footer": "CC BY-NC-SA 4.0 — lo fukyzifpo'e pe la CERI SAS"
+    "footer": "CC BY-SA 4.0 — lo fukyzifpo'e pe la CERI SAS"
   }
 }
